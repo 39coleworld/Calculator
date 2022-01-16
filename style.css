@@ -1,0 +1,90 @@
+/*CONFIGURAÇÕES GERAIS*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-image: url(./Assets/img/img-calculadora.jpg);
+    height: 100vh;
+    width: 100vw;
+    color: #B0C4DE;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.calculator {
+    position: absolute;
+    background: linear-gradient(to bottom, #B0C4DE 50%, #F0F8FF, #E6E6FA);
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgb(0 0 0 / 35%);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    margin: 3px;
+    background: linear-gradient(to bottom, #B0C4DE 10%, #F0F8FF, #E6E6FA);
+    border-radius: 5px;
+    border: 1px solid #000000;
+    color: #000000;
+
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.button:active {
+    background-color: #DCDCDC;
+    opacity: 0.3;
+}
+
+.button-CE {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 3px;
+    background: linear-gradient(to bottom, #B0C4DE 10%, #F0F8FF, #E6E6FA);
+    border-radius: 5px;
+    border: 1px solid #000000;
+    color: #000000;
+
+}
+
+.button-CE:hover {
+    opacity: 0.8;
+}
+
+.button-CE:active {
+    background-color: #DCDCDC;
+    opacity: 0.3;
+}
+
+#result {
+    background-color: white;
+    width: 207px;
+    height: 40px;
+    margin: 5px;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    color: #000000;
+    text-align: right;
+    padding: 5px;
+}
+
+.brand {
+    position: relative;
+    top: 90%;
+    color: #000000;
+}
